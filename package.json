@@ -1,0 +1,20 @@
+{
+  "name": "FE22-js2-sluprojekt-sorayya-ahmadi",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "parcel ./src/index.html ./src/profile.html",
+    "build": "parcel build ./src/index.html --dist-dir docs --public-url ./",
+    "clean": "del-cli ./.parcel-cache ./docs ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del-cli": "^4.0.1",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "firebase": "^9.6.10"
+  }
+}

@@ -1,0 +1,70 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: normal;
+}
+
+body {
+
+  height: 100vh;
+  background: linear-gradient(to right, #810383,#7b4b8776);
+  
+}
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#chattapp {
+  text-shadow: 0.8px 0.8px 0.8px #ad17f3;
+}
+#login-title {
+  color: white;
+  text-shadow: 0.8px 0.8px 0.8px #ad17f3;
+}
+#form-title-container {
+  position: relative;
+  box-shadow: 4.4px 4.4px 4.4px #ad17f3;
+  text-align: center;
+  background-color: #ad17f3;
+  width: 25%;
+  height: 500px;
+  padding: 75px, 75px, 76px;
+}
+#password {
+  margin-bottom: 25px;
+}
+footer {
+  background-color: rgb(179, 50, 208);
+  color: white;
+  border-top: 2px solid #ad17f3;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+#mylogo {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+}
+#gender {
+  height: 50px;
+  background-color: white;
+  position: relative;
+  text-align: center;
+  text-align-last: center;
+}
+#userIMG {
+  display: flex;
+}
+@media screen and (max-width: 769px) {
+  #logo-60 {
+    display: none;
+  }
+  #form-title-container {
+    width: 50%;
+  }
+}

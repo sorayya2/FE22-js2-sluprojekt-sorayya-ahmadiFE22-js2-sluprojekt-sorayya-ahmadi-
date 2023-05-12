@@ -1,0 +1,29 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: normal;
+}
+
+body {
+
+  height: 100vh;
+  background: linear-gradient(to right, #810383,#7b4b8776);
+  
+}
+#Topics {
+  float: center;
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  border: 3px solid #7519a0;
+  padding: 10px;
+  background-color: #a566b3;
+  color: white;
+  text-shadow: 0.8px 0.8px 0.8px #ca40d4;
+  box-shadow: 4.4px 4.4px 4.4px #d341f0;
+  border-radius: 20px;
+}
+#showTopic {
+  padding: 2rem;
+}
+
